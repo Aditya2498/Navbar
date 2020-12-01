@@ -1,6 +1,6 @@
 
 import React,{Component} from 'react';
-import {GrimButtons} from '../GrimButtons/GrimButtons';
+
 import {GrimMenuitems} from '../GrimMenuitems/GrimMenuItems';
 import './GrimNavbar.css';
 
@@ -37,7 +37,7 @@ export class GrimNavbar extends Component {
                                 </a>
                             </li>) } ) }
                     </ul>
-                    <GrimButtons>Sign Up</GrimButtons>
+                    
                           
                  </nav> )
     }
