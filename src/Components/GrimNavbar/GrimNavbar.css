@@ -3,8 +3,6 @@
     height:80px;
     display: flex;
     justify-content: center;
-
-    
     align-items: center;
     font-size: 1.6rem;
 }
@@ -28,7 +26,7 @@
 .nav-menu{
     display:grid;
     grid-template-columns: repeat(5,auto);
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -42,7 +40,7 @@
 }
 
 .nav-links:hover{
-    background-color: #07410c;
+    background-color: #1db822;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
@@ -79,7 +77,7 @@
     }
 
     .nav-menu.active {
-        background: #6668f4;
+        background: linear-gradient(180deg,rgb(38, 109, 4)0%,rgb(32, 172, 67)100%);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -94,7 +92,7 @@
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
+        background-color: #33cc2d;
         border-radius: 0;
     }
 
@@ -127,15 +125,15 @@
         margin: 2rem auto;
         border-radius: 4px;
         width: 80%;
-        background: #4ad9e4;
+        background: #70ce44;
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
     }
 
     .nav-links-mobile:hover {
-        background: #fff;
-        color: #6568F4;
+        background: rgb(10, 92, 7);
+        color: #5dbb46;
         transition: 250ms;
     }
 
